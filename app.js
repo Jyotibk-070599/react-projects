@@ -17,7 +17,7 @@
 //     )
 // );
 
-
+// parent React Javascript element
 let parent = React.createElement('div', {id: 'parent'},
     [ React.createElement('div', {id: 'child1'},[ 
         React.createElement('h1', {}, "I'm nested child1-h1"),
