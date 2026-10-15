@@ -2,3 +2,87 @@
     background-color: lightblue;
     padding: 20px;  
 }
+.body-pickle-container{
+    width: 215px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.logo {
+    margin:5px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.nav-items {
+    display: block;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.nav-food , .nav-other{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+.nav-food > li , .nav-other > li ,.nav-profile{
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-profile{
+    margin: 0 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.search, .cart, .profile{
+    padding: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.body-heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.body-pickle-container:hover{
+    border: 1px solid gray;
+}
+
+.pickle-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin: 5px;
+}
+.body-pickle-card{
+    padding: 10px;
+}
+.pickle-image{
+    height: 250px;
+    width: 195px;
+    border-radius: 10px;
+}
+.pickle-name, .details{
+    margin: 5px;
+}
+.pickle-dsc{
+    margin: 5px;
+    font-size: 12px;
+}
+.pickle-details{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "React Projects",
+  "version": "1.0.0",
+  "description": "React Practice",
+  "homepage": "https://github.com/Jyotibk-070599/react-projects#readme",
+  "bugs": {
+    "url": "https://github.com/Jyotibk-070599/react-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jyotibk-070599/react-projects.git"
+  },
+  "license": "ISC",
+  "author": "Jyoti",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}
