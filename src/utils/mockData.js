@@ -1,4 +1,4 @@
-const pickleList =[
+const restaurantData =[
   {
     "id": 1,
     "name": "Mango Pickle",
@@ -24,7 +24,7 @@ const pickleList =[
   {
     "id": 3,
     "name": "Garlic Pickle",
-    "image": "https://obsoninternational.com/wp-content/uploads/2024/10/garlic-pickle.jpeg",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.7GjKMvEGC24ok3yjGI7W1gHaHa?r=0&pid=ImgDet&w=191&h=191&c=7&o=7&rm=3",
     "rating": 4.6,
     "quantity": "250g",
     "price": 180,
@@ -111,4 +111,4 @@ const pickleList =[
   }
 ]
     
-export default pickleList;
+export default restaurantData;

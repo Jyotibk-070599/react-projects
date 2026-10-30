@@ -2,87 +2,105 @@
     background-color: lightblue;
     padding: 20px;  
 }
-.body-pickle-container{
+.restaurant-card-wrapper{
     width: 215px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
     margin: 5px;
 }
-.header-container {
+.shimmer-container{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .shimmer-card{
+    margin: 10px;
+    width: 215px;
+    height: 400px;
+    background-color: lightgray;
+    
+ }
+
+.app-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #ccc;
 }
-.logo {
+.brand-logo {
     margin:5px;
     width: 100px;
     height: 100px;
     object-fit: contain;
 }
 
-.nav-items {
+.main-navigation {
     display: block;
     justify-content: space-around;
     list-style-type: none;
     padding: 0;
 }
-.nav-food , .nav-other{
+.nav-links{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     padding: 0;
 }
-.nav-food > li , .nav-other > li ,.nav-profile{
+.nav-links > li , .header-actions{
     margin: 0 5px;
     padding: 5px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
 }
-.nav-profile{
+.header-actions{
     margin: 0 10px;
     padding: 5px;
     cursor: pointer;
 }
-.search, .cart, .profile{
+.search-icon, .cart-icon, .profile-icon{
     padding: 0 10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
-.body-heading{
+.restaurant-heading{
     text-align: center;
     margin-top: 30px;
 }
-.body-pickle-container:hover{
+.restaurant-card-wrapper:hover{
     border: 1px solid gray;
 }
 
-.pickle-container{
+.restaurant-grid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
      margin: 5px;
 }
-.body-pickle-card{
+.restaurant-card{
     padding: 10px;
 }
-.pickle-image{
+.restaurant-image{
     height: 250px;
     width: 195px;
     border-radius: 10px;
 }
-.pickle-name, .details{
-    margin: 5px;
+.restaurant-name, .restaurant-meta{
+    margin: 5px;  
+    width: 195px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
-.pickle-dsc{
+.restaurant-description{
     margin: 5px;
     font-size: 12px;
 }
-.pickle-details{
+.restaurant-details{
     display: flex;
     justify-content: space-between;
+}
+.btn-filter-rating{
+    margin-left: 10px;
 }
